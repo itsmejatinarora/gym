@@ -1,310 +1,466 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GYM-WEBSITE</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar  -->
     <header>
-        <nav class="navbar">
-          <div class="logo">
-            <a href="#">FITNESS FOREVER</a>
-          </div>
-          <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#membership">Membership</a></li>
-            <li><a href="#classes">Classes</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <div class="hamburger" id="hamburger" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </nav>
-        <script>
-          function toggleMenu() {
-              document.querySelector('.nav-links').classList.toggle('active');
-          }
+      <nav class="navbar">
+        <div class="logo">
+          <a href="#">FITNESS FOREVER</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#membership">Membership</a></li>
+          <li><a href="#classes">Classes</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <script>
+        function toggleMenu() {
+          document.querySelector(".nav-links").classList.toggle("active");
+        }
       </script>
-      </header>
-    
+    </header>
+      <!-- home  -->
     <section class="home">
-        <div class="home-content">
-          <h1>Welcome to FITNESS FOREVER GYM</h1>
-          <p>Your journey to a healthier, stronger you starts here. Join our fitness community today and unlock your full potential!</p>
-          <a href="#join" class="cta-btn">Join Now</a>
-        </div>
-      </section>
-      <section class="partner-logos">
-        <div class="partner-boxes">
-            <p><b>5 +</b></p>
-            <p>Years Of Experience</p>
-        </div>
-        <div class="partner-boxes">
-            <p><b>10 +</b></p>
-            <p>Certified Trainers</p>
-        </div>
-        <div class="partner-boxes">
-            <p><b>786 +</b></p>
-            <p>Happy Members</p>
-        </div>
-        <div class="partner-boxes">
-            <p><b>95 %</b></p>
-            <p>Customer Satisfaction</p>
-        </div>
-    </section> 
+      <div class="home-content">
+        <h1>Welcome to FITNESS FOREVER GYM</h1>
+        <p>
+          Your journey to a healthier, stronger you starts here. Join our
+          fitness community today and unlock your full potential!
+        </p>
+        <a href="#join" class="cta-btn">Join Now</a>
+      </div>
+    </section>
+     <!-- about us  -->
     <section class="about-us" id="about">
       <div class="about-container">
         <div class="about-content">
           <h2>About Us</h2>
-          <p>At [Gym Name], we are dedicated to helping you achieve your fitness goals through state-of-the-art equipment, expert trainers, and a supportive community. Whether you're looking to build strength, increase endurance, or improve your overall health, we have everything you need to succeed.</p>
-          <p>Our gym is built around the idea that fitness is not just about physical transformation, but about empowering people to feel their best. We offer a variety of classes and personalized training plans, designed to meet the needs of everyone, from beginners to seasoned athletes.</p>
+          <p>
+            At [Gym Name], we are dedicated to helping you achieve your fitness
+            goals through state-of-the-art equipment, expert trainers, and a
+            supportive community. Whether you're looking to build strength,
+            increase endurance, or improve your overall health, we have
+            everything you need to succeed.
+          </p>
+          <p>
+            Our gym is built around the idea that fitness is not just about
+            physical transformation, but about empowering people to feel their
+            best. We offer a variety of classes and personalized training plans,
+            designed to meet the needs of everyone, from beginners to seasoned
+            athletes.
+          </p>
         </div>
         <div class="about-image">
-          <img src="about-us-img.jpg" alt="About Us Image">
+          <img src="images/about-us-img.jpg" alt="About Us Image" />
         </div>
       </div>
     </section>
-      <section class="membership" id="membership">
-        <div class="membership-container">
-          <h2>Our Membership Plans</h2>
-          <p>Choose the best plan that fits your fitness goals. We offer flexible and affordable options to get you started!</p>
-    
-          <div class="membership-plans">
-            <div class="plan">
-              <h3>Basic</h3>
-              <p class="price">$29/month</p>
-              <ul>
-                <li>Access to Gym Equipment</li>
-                <li>1 Free Personal Training Session</li>
-                <li>Weekly Fitness Classes</li>
-              </ul>
-              <a href="#" class="cta-btn">Join Now</a>
-            </div>
-            <div class="plan">
-              <h3>Standard</h3>
-              <p class="price">$49/month</p>
-              <ul>
-                <li>All Basic Plan Benefits</li>
-                <li>Unlimited Group Classes</li>
-                <li>2 Free Personal Training Sessions</li>
-              </ul>
-              <a href="#" class="cta-btn">Join Now</a>
-            </div>
-            <div class="plan">
-              <h3>Premium</h3>
-              <p class="price">$79/month</p>
-              <ul>
-                <li>All Standard Plan Benefits</li>
-                <li>Unlimited 24/7 Gym Access</li>
-                <li>Access to Specialty Classes</li>
-              </ul>
-              <a href="#" class="cta-btn">Join Now</a>
-            </div>
+    <!-- membership  -->
+    <section class="membership" id="membership">
+      <div class="membership-container">
+        <h2>Our Membership Plans</h2>
+        <p>
+          Choose the best plan that fits your fitness goals. We offer flexible
+          and affordable options to get you started!
+        </p>
+
+        <div class="membership-plans">
+          <div class="plan">
+            <h3>Basic</h3>
+            <p class="price">$29/month</p>
+            <ul>
+              <li>Access to Gym Equipment</li>
+              <li>1 Free Personal Training Session</li>
+              <li>Weekly Fitness Classes</li>
+            </ul>
+            <a href="#" class="cta-btn">Join Now</a>
+          </div>
+          <div class="plan">
+            <h3>Standard</h3>
+            <p class="price">$49/month</p>
+            <ul>
+              <li>All Basic Plan Benefits</li>
+              <li>Unlimited Group Classes</li>
+              <li>2 Free Personal Training Sessions</li>
+            </ul>
+            <a href="#" class="cta-btn">Join Now</a>
+          </div>
+          <div class="plan">
+            <h3>Premium</h3>
+            <p class="price">$79/month</p>
+            <ul>
+              <li>All Standard Plan Benefits</li>
+              <li>Unlimited 24/7 Gym Access</li>
+              <li>Access to Specialty Classes</li>
+            </ul>
+            <a href="#" class="cta-btn">Join Now</a>
           </div>
         </div>
-      </section>
-      <section class="classes-schedule" id="classes">
-        <div class="schedule-container">
-          <h2>Our Classes & Schedule</h2>
-          <p>Explore our variety of fitness classes designed to help you achieve your goals. Check out our schedule below and join any class that fits your routine!</p>
-    
-          <div class="class-list">
-            <div class="class-card">
-              <h3>Yoga</h3>
-              <p class="class-time">Monday, Wednesday, Friday: 9:00 AM - 10:00 AM</p>
-              <p>Relax, stretch, and improve your flexibility with our calming Yoga sessions.</p>
-              <a href="#" class="cta-btn">Join Now</a>
-            </div>
-            <div class="class-card">
-              <h3>HIIT</h3>
-              <p class="class-time">Tuesday, Thursday: 6:00 PM - 7:00 PM</p>
-              <p>Push your limits with our high-intensity interval training classes.</p>
-              <a href="#" class="cta-btn">Join Now</a>
-            </div>
-            <div class="class-card">
-              <h3>Spin</h3>
-              <p class="class-time">Monday, Wednesday: 7:00 AM - 8:00 AM</p>
-              <p>Get your heart pumping and burn calories with our high-energy spin classes.</p>
-              <a href="#" class="cta-btn">Join Now</a>
-            </div>
-            <div class="class-card">
-              <h3>Zumba</h3>
-              <p class="class-time">Saturday: 10:00 AM - 11:00 AM</p>
-              <p>Dance your way to fitness with our fun and energetic Zumba classes.</p>
-              <a href="#" class="cta-btn">Join Now</a>
-            </div>
+      </div>
+    </section>
+    <!-- classes-schedule  -->
+    <section class="classes-schedule" id="classes">
+      <div class="schedule-container">
+        <h2>Our Classes & Schedule</h2>
+        <p>
+          Explore our variety of fitness classes designed to help you achieve
+          your goals. Check out our schedule below and join any class that fits
+          your routine!
+        </p>
+
+        <div class="class-list">
+          <div class="class-card">
+            <h3>Yoga</h3>
+            <p class="class-time">
+              Monday, Wednesday, Friday: 9:00 AM - 10:00 AM
+            </p>
+            <p>
+              Relax, stretch, and improve your flexibility with our calming Yoga
+              sessions.
+            </p>
+            <a href="#" class="cta-btn">Join Now</a>
+          </div>
+          <div class="class-card">
+            <h3>HIIT</h3>
+            <p class="class-time">Tuesday, Thursday: 6:00 PM - 7:00 PM</p>
+            <p>
+              Push your limits with our high-intensity interval training
+              classes.
+            </p>
+            <a href="#" class="cta-btn">Join Now</a>
+          </div>
+          <div class="class-card">
+            <h3>Spin</h3>
+            <p class="class-time">Monday, Wednesday: 7:00 AM - 8:00 AM</p>
+            <p>
+              Get your heart pumping and burn calories with our high-energy spin
+              classes.
+            </p>
+            <a href="#" class="cta-btn">Join Now</a>
+          </div>
+          <div class="class-card">
+            <h3>Zumba</h3>
+            <p class="class-time">Saturday: 10:00 AM - 11:00 AM</p>
+            <p>
+              Dance your way to fitness with our fun and energetic Zumba
+              classes.
+            </p>
+            <a href="#" class="cta-btn">Join Now</a>
           </div>
         </div>
-      </section>
-      <section class="personal-training" id="personal-training">
-        <div class="training-container">
-          <h2>Personal Training</h2>
-          <p>Achieve your fitness goals faster with the help of our experienced personal trainers. Whether you're looking to lose weight, build strength, or improve flexibility, our trainers will tailor a program just for you.</p>
-    
-          <div class="trainer-cards">
-            <div class="trainer-card">
-              <img src="trainer1.jpg" alt="Trainer 1" class="trainer-image">
-              <h3>John Doe</h3>
-              <p>Certified Personal Trainer</p>
-              <p class="specialty">Specializes in Weight Loss & Strength Training</p>
-              <p class="price">$50/hour</p>
-              <a href="#" class="cta-btn">Book Now</a>
-            </div>
-    
-            <div class="trainer-card">
-              <img src="trainer2.jpg" alt="Trainer 2" class="trainer-image">
-              <h3>Jane Smith</h3>
-              <p>Certified Personal Trainer</p>
-              <p class="specialty">Specializes in Yoga & Flexibility</p>
-              <p class="price">$55/hour</p>
-              <a href="#" class="cta-btn">Book Now</a>
-            </div>
-    
-            <div class="trainer-card">
-              <img src="trainer3.jpg" alt="Trainer 3" class="trainer-image">
-              <h3>Alex Johnson</h3>
-              <p>Certified Personal Trainer</p>
-              <p class="specialty">Specializes in High-Intensity Training</p>
-              <p class="price">$60/hour</p>
-              <a href="#" class="cta-btn">Book Now</a>
-            </div>
+      </div>
+    </section>
+    <!-- personal-training  -->
+    <section class="personal-training" id="personal-training">
+      <div class="training-container">
+        <h2>Personal Training</h2>
+        <p>
+          Achieve your fitness goals faster with the help of our experienced
+          personal trainers. Whether you're looking to lose weight, build
+          strength, or improve flexibility, our trainers will tailor a program
+          just for you.
+        </p>
+
+        <div class="trainer-cards">
+          <div class="trainer-card">
+            <img
+              src="images/trainer1.jpg"
+              alt="Trainer 1"
+              class="trainer-image"
+            />
+            <h3>John Doe</h3>
+            <p>Certified Personal Trainer</p>
+            <p class="specialty">
+              Specializes in Weight Loss & Strength Training
+            </p>
+            <p class="price">$50/hour</p>
+            <a href="#" class="cta-btn">Book Now</a>
+          </div>
+
+          <div class="trainer-card">
+            <img
+              src="images/trainer2.jpg"
+              alt="Trainer 2"
+              class="trainer-image"
+            />
+            <h3>Jane Smith</h3>
+            <p>Certified Personal Trainer</p>
+            <p class="specialty">Specializes in Yoga & Flexibility</p>
+            <p class="price">$55/hour</p>
+            <a href="#" class="cta-btn">Book Now</a>
+          </div>
+
+          <div class="trainer-card">
+            <img
+              src="images/trainer3.jpg"
+              alt="Trainer 3"
+              class="trainer-image"
+            />
+            <h3>Alex Johnson</h3>
+            <p>Certified Personal Trainer</p>
+            <p class="specialty">Specializes in High-Intensity Training</p>
+            <p class="price">$60/hour</p>
+            <a href="#" class="cta-btn">Book Now</a>
           </div>
         </div>
-      </section>
-      <section class="facilities" id="facilities">
-        <div class="facilities-container">
-          <h2>Our Facilities</h2>
-          <p>Explore the top-notch facilities that make us the best gym in town. From state-of-the-art equipment to specialized workout areas, we've got everything you need to achieve your fitness goals.</p>
-    
-          <div class="facility-cards">
-            <div class="facility-card">
-              <img src="gym-equipment.jpg" alt="Gym Equipment" class="facility-image">
-              <h3>State-of-the-Art Equipment</h3>
-              <p>Our gym is equipped with the latest cardio and strength training machines to help you get the most out of your workouts.</p>
-            </div>
-    
-            <div class="facility-card">
-              <img src="yoga-studio.jpg" alt="Yoga Studio" class="facility-image">
-              <h3>Yoga & Meditation Studio</h3>
-              <p>Relax and rejuvenate in our dedicated yoga and meditation studio, designed to provide a peaceful and focused environment.</p>
-            </div>
-    
-            <div class="facility-card">
-              <img src="spin-room.jpg" alt="Spin Room" class="facility-image">
-              <h3>Spin Room</h3>
-              <p>Join our high-energy spin classes in a specially designed room that boosts motivation with vibrant lighting and music.</p>
-            </div>
-    
-            <div class="facility-card">
-              <img src="locker-rooms.jpg" alt="Locker Rooms" class="facility-image">
-              <h3>Luxurious Locker Rooms</h3>
-              <p>Enjoy clean, spacious, and secure locker rooms with showers and personal lockers for a comfortable post-workout experience.</p>
-            </div>
+      </div>
+    </section>
+    <!-- facilities  -->
+    <section class="facilities" id="facilities">
+      <div class="facilities-container">
+        <h2>Our Facilities</h2>
+        <p>
+          Explore the top-notch facilities that make us the best gym in town.
+          From state-of-the-art equipment to specialized workout areas, we've
+          got everything you need to achieve your fitness goals.
+        </p>
+
+        <div class="facility-cards">
+          <div class="facility-card">
+            <img
+              src="images/gym-equipment.jpg"
+              alt="Gym Equipment"
+              class="facility-image"
+            />
+            <h3>State-of-the-Art Equipment</h3>
+            <p>
+              Our gym is equipped with the latest cardio and strength training
+              machines to help you get the most out of your workouts.
+            </p>
+          </div>
+
+          <div class="facility-card">
+            <img
+              src="images/yoga-studio.jpg"
+              alt="Yoga Studio"
+              class="facility-image"
+            />
+            <h3>Yoga & Meditation Studio</h3>
+            <p>
+              Relax and rejuvenate in our dedicated yoga and meditation studio,
+              designed to provide a peaceful and focused environment.
+            </p>
+          </div>
+
+          <div class="facility-card">
+            <img
+              src="images/spin-room.jpg"
+              alt="Spin Room"
+              class="facility-image"
+            />
+            <h3>Spin Room</h3>
+            <p>
+              Join our high-energy spin classes in a specially designed room
+              that boosts motivation with vibrant lighting and music.
+            </p>
+          </div>
+
+          <div class="facility-card">
+            <img
+              src="images/locker-rooms.jpg"
+              alt="Locker Rooms"
+              class="facility-image"
+            />
+            <h3>Luxurious Locker Rooms</h3>
+            <p>
+              Enjoy clean, spacious, and secure locker rooms with showers and
+              personal lockers for a comfortable post-workout experience.
+            </p>
           </div>
         </div>
-      </section>
-      <section class="testimonials" id="testimonials">
-        <div class="testimonials-container">
-          <h2>What Our Members Say</h2>
-          <p>Don't just take our word for it—hear from our happy members who have transformed their fitness journey with us.</p>
-    
-          <div class="testimonial-cards">
-            <div class="testimonial-card">
-              <img src="client1.jpg" alt="Client 1" class="testimonial-image">
-              <h3>Sarah Johnson</h3>
-              <p class="testimonial-text">"The gym has everything I need to stay in shape! The trainers are fantastic, and the community is so motivating. I've seen amazing results!"</p>
-              <p class="testimonial-rating">⭐⭐⭐⭐⭐</p>
-            </div>
-    
-            <div class="testimonial-card">
-              <img src="client2.jpg" alt="Client 2" class="testimonial-image">
-              <h3>Michael Lee</h3>
-              <p class="testimonial-text">"I love the variety of classes offered, from spin to yoga. The gym is always clean, and the staff is incredibly friendly."</p>
-              <p class="testimonial-rating">⭐⭐⭐⭐⭐</p>
-            </div>
-    
-            <div class="testimonial-card">
-              <img src="client3.jpg" alt="Client 3" class="testimonial-image">
-              <h3>John Martinez</h3>
-              <p class="testimonial-text">"Joining this gym was the best decision I've made. The trainers really care about your progress and push you to be your best!"</p>
-              <p class="testimonial-rating">⭐⭐⭐⭐⭐</p>
-            </div>
+      </div>
+    </section>
+    <!-- testimonials  -->
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials-container">
+        <h2>What Our Members Say</h2>
+        <p>
+          Don't just take our word for it—hear from our happy members who have
+          transformed their fitness journey with us.
+        </p>
+
+        <div class="testimonial-cards">
+          <div class="testimonial-card">
+            <img
+              src="images/client1.jpg"
+              alt="Client 1"
+              class="testimonial-image"
+            />
+            <h3>Sarah Johnson</h3>
+            <p class="testimonial-text">
+              "The gym has everything I need to stay in shape! The trainers are
+              fantastic, and the community is so motivating. I've seen amazing
+              results!"
+            </p>
+            <p class="testimonial-rating">⭐⭐⭐⭐⭐</p>
+          </div>
+
+          <div class="testimonial-card">
+            <img
+              src="images/client2.jpg"
+              alt="Client 2"
+              class="testimonial-image"
+            />
+            <h3>Michael Lee</h3>
+            <p class="testimonial-text">
+              "I love the variety of classes offered, from spin to yoga. The gym
+              is always clean, and the staff is incredibly friendly."
+            </p>
+            <p class="testimonial-rating">⭐⭐⭐⭐⭐</p>
+          </div>
+
+          <div class="testimonial-card">
+            <img
+              src="images/client3.jpg"
+              alt="Client 3"
+              class="testimonial-image"
+            />
+            <h3>John Martinez</h3>
+            <p class="testimonial-text">
+              "Joining this gym was the best decision I've made. The trainers
+              really care about your progress and push you to be your best!"
+            </p>
+            <p class="testimonial-rating">⭐⭐⭐⭐⭐</p>
           </div>
         </div>
-      </section>
-      <section class="blog" id="blog">
-        <div class="blog-container">
-          <h2>Our Latest Blog Posts</h2>
-          <p>Stay updated with the latest fitness tips, nutrition advice, and gym news.</p>
-          
-          <div class="blog-posts">
-            <div class="blog-post">
-              <img src="blog1.jpg" alt="Blog Post 1" class="blog-image">
-              <h3>5 Tips to Boost Your Workout</h3>
-              <p class="blog-excerpt">Learn simple techniques to enhance your workout and see quicker results...</p>
-              <a href="https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/5-nutrition-tips-to-maximize-your-workouts" class="read-more">Read More</a>
-            </div>
-            
-            <div class="blog-post">
-              <img src="blog2.jpg" alt="Blog Post 2" class="blog-image">
-              <h3>Top 10 Healthy Post-Workout Meals</h3>
-              <p class="blog-excerpt">Discover the best meals to fuel your body after intense exercise...</p>
-              <a href="https://www.menshealth.com/nutrition/a19546508/best-post-workout-foods/" class="read-more">Read More</a>
-            </div>
-      
-            <div class="blog-post">
-              <img src="blog3.jpg" alt="Blog Post 3" class="blog-image">
-              <h3>How to Stay Consistent with Your Fitness Routine</h3>
-              <p class="blog-excerpt">Consistency is key! Here’s how you can stay on track...</p>
-              <a href="https://www.scripps.org/news_items/5898-7-tips-to-get-you-exercising-consistently" class="read-more">Read More</a>
-            </div>
-          </div>
+      </div>
+    </section>
+    <!-- blog  -->
+   <section class="blog" id="blog">
+  <div class="blog-container">
+    <h2>Our Latest Blog Posts</h2>
+    <p>
+      Stay updated with the latest fitness tips, nutrition advice, and gym
+      news.
+    </p>
+
+    <div class="blog-posts">
+      <div class="blog-post">
+        <img src="images/blog1.jpg" alt="Blog Post 1" class="blog-image" />
+        <h3>5 Tips to Boost Your Workout</h3>
+        <p class="blog-excerpt">
+          Learn simple techniques to enhance your workout and see quicker
+          results...
+        </p>
+        <a
+          href="https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/5-nutrition-tips-to-maximize-your-workouts"
+          class="read-more"
+          >Read More</a
+        >
+      </div>
+
+      <div class="blog-post">
+        <img src="images/blog2.jpg" alt="Blog Post 2" class="blog-image" />
+        <h3>Top 10 Healthy Post-Workout Meals</h3>
+        <p class="blog-excerpt">
+          Discover the best meals to fuel your body after intense
+          exercise...
+        </p>
+        <a
+          href="https://www.menshealth.com/nutrition/a19546508/best-post-workout-foods/"
+          class="read-more"
+          >Read More</a
+        >
+      </div>
+
+      <div class="blog-post">
+        <img src="images/blog3.jpg" alt="Blog Post 3" class="blog-image" />
+        <h3>How to Stay Consistent with Your Fitness Routine</h3>
+        <p class="blog-excerpt">
+          Consistency is key! Here’s how you can stay on track...
+        </p>
+        <a
+          href="https://www.scripps.org/news_items/5898-7-tips-to-get-you-exercising-consistently"
+          class="read-more"
+          >Read More</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- contact-us  -->
+    <section class="contact-us" id="contact-us">
+      <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>
+          If you have any questions or need assistance, don't hesitate to reach
+          out to us.
+        </p>
+
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </form>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </div>
+    </section> 
+    <!-- faq  -->
+    <section class="faq" id="faq">
+      <div class="faq-container">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <h3>What are your gym hours?</h3>
+          <p>
+            We are open 24/7 for your convenience. You can work out at any time!
+          </p>
         </div>
-      </section>
-      <section class="contact-us" id="contact-us">
-        <div class="contact-container">
-          <h2>Contact Us</h2>
-          <p>If you have any questions or need assistance, don't hesitate to reach out to us.</p>
-      
-          <form action="#" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-          </form>
-          <button type="submit" class="submit-btn">Send Message</button>
+
+        <div class="faq-item">
+          <h3>Do I need a membership to use the gym?</h3>
+          <p>
+            Yes, you need to purchase a membership to access the gym and
+            classes.
+          </p>
         </div>
-      </section>
-      <section class="faq" id="faq">
-        <div class="faq-container">
-          <h2>Frequently Asked Questions</h2>
-      
-          <div class="faq-item">
-            <h3>What are your gym hours?</h3>
-            <p>We are open 24/7 for your convenience. You can work out at any time!</p>
-          </div>
-      
-          <div class="faq-item">
-            <h3>Do I need a membership to use the gym?</h3>
-            <p>Yes, you need to purchase a membership to access the gym and classes.</p>
-          </div>
-      
-          <div class="faq-item">
-            <h3>Do you offer personal training?</h3>
-            <p>Yes, we have certified personal trainers available to assist you with customized workout plans.</p>
-          </div>
+
+        <div class="faq-item">
+          <h3>Do you offer personal training?</h3>
+          <p>
+            Yes, we have certified personal trainers available to assist you
+            with customized workout plans.
+          </p>
         </div>
-      </section>
-      <section class="join-now" id="join-now">
-        <div class="join-container">
-          <h2>Join Our Gym Today!</h2>
-          <p>Ready to start your fitness journey? Sign up now and get started!</p>
-          <a href="signup.html" class="join-btn">Join Now</a>
-        </div>
-      </section>
-</body>
+      </div>
+    </section>
+    <!-- join-now  -->
+    <section class="join-now" id="join-now">
+      <div class="join-container">
+        <h2>Join Our Gym Today!</h2>
+        <p>Ready to start your fitness journey? Sign up now and get started!</p>
+        <a href="signup.html" class="join-btn">Join Now</a>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; <span id="year"></span> Jatin Arora. All Rights Reserved.</p>
+        <button class="scroll-top" onclick="scrollToTop()">
+          ⬆ Back to Top
+        </button>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

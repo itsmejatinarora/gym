@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: "Arial", sans-serif;
 }
+body{
+  background-color: #000000;
+}
 
 /* Navbar Styling */
 .navbar {
@@ -23,7 +26,7 @@
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
-  color: #b1cc74;
+  color: orange;
   text-transform: uppercase;
 }
 
@@ -41,7 +44,7 @@
 }
 
 .navbar .nav-links li a:hover {
-  color: #b1cc74;
+  color:orange;
 }
 
 /* Hamburger Menu */
@@ -108,7 +111,7 @@
   align-items: center;
   height: 100vh;
   padding: 0 20px;
-  background-image: url(home-bg.jpg);
+  background-image: url(images/home-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -126,7 +129,7 @@
   margin-bottom: 20px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #b1cc74;
+  color:white;
 }
 
 .home p {
@@ -146,9 +149,7 @@
   transition: background-color 0.3s ease;
 }
 
-.cta-btn:hover {
-  background-color: #e06c3f;
-}
+
 
 /* Media Queries for Responsiveness */
 
@@ -197,48 +198,13 @@
   }
 }
 
-/*partner-logo*/
-.partner-logos {
-  height: 120px;
-  display: flex;
-  background-color: rgba(10, 10, 10, 0.996);
-}
-.partner-boxes {
-  height: 100px;
-  flex-grow: 1;
-  margin: 10px 10px;
-  align-content: center;
-  text-align: center;
-  font-size: 22px;
-  background-color: rgba(12, 12, 12, 0.996);
-  color: white;
-}
-@media (max-width: 768px) {
-  .partner-boxes p {
-    font-size: 15px;
-  }
-}
-@media (max-width: 480px) {
-  .partner-logos {
-    height: 250px;
-    flex-direction: column;
-  }
-  .partner-boxes {
-    height: 60px;
-  }
-  .partner-boxes p {
-    font-size: 15px;
-  }
-}
-
 /* About Us Section */
 .about-us {
   background-color: #000000;
-  padding: 60px 20px;
+  padding: 40px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: auto;
 }
 
 .about-container {
@@ -259,7 +225,7 @@
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
-  color: #b1cc74;
+  color: orange;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -280,7 +246,7 @@
   height: 90%;
   margin: 20px;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(41, 40, 40, 0.589);
+  border:1px solid white;
 }
 
 /* Media Queries for Responsiveness */
@@ -331,7 +297,7 @@
 
 .membership h2 {
   font-size: 2.8rem;
-  color: #b1cc74;
+  color: orange;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -343,7 +309,6 @@
 }
 
 .membership-container {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -357,7 +322,7 @@
   background-color: rgba(0, 0, 0, 0.801);
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(41, 40, 40, 0.589);
+  border: 1px solid white;
   width: 30%;
   text-align: center;
   transition: transform 0.3s ease;
@@ -369,7 +334,7 @@
 
 .plan h3 {
   font-size: 2rem;
-  color: #b1cc74;
+  color: orange;
   margin-bottom: 20px;
 }
 
@@ -445,7 +410,7 @@
 
 .classes-schedule h2 {
   font-size: 2.8rem;
-  color: #b1cc74;
+  color:orange;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -457,7 +422,6 @@
 }
 
 .schedule-container {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -472,7 +436,7 @@
   background-color: rgba(8, 8, 8, 0.996);
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(41, 40, 40, 0.589);
+  border: 1px solid white;
   width: 23%;
   text-align: center;
   transition: transform 0.3s ease;
@@ -484,7 +448,7 @@
 
 .class-card h3 {
   font-size: 1.8rem;
-  color: #b1cc74;
+  color: orange;
   margin-bottom: 15px;
 }
 
@@ -552,7 +516,7 @@
 
 .personal-training h2 {
   font-size: 2.8rem;
-  color: #b1cc74;
+  color:orange;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -565,7 +529,6 @@
 }
 
 .training-container {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -580,7 +543,7 @@
   background-color: #000000;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(41, 40, 40, 0.589);
+  border: 1px solid white;
   width: 30%;
   text-align: center;
   transition: transform 0.3s ease;
@@ -599,7 +562,7 @@
 
 .trainer-card h3 {
   font-size: 1.8rem;
-  color: #b1cc74;
+  color: orange;
   margin-bottom: 10px;
 }
 
@@ -678,7 +641,7 @@
 
 .facilities h2 {
   font-size: 2.8rem;
-  color: #b1cc74;
+  color: orange;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -691,7 +654,6 @@
 }
 
 .facilities-container {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -706,7 +668,7 @@
   background-color: rgba(8, 8, 8, 0.996);
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(41, 40, 40, 0.589);
+  border: 1px solid white;
   width: 23%;
   text-align: center;
   transition: transform 0.3s ease;
@@ -725,7 +687,7 @@
 
 .facility-card h3 {
   font-size: 1.8rem;
-  color: #b1cc74;
+  color: orange;
   margin-bottom: 10px;
 }
 
@@ -787,7 +749,7 @@
 
 .testimonials h2 {
   font-size: 2.8rem;
-  color: #b1cc74;
+  color: orange;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -800,7 +762,6 @@
 }
 
 .testimonials-container {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -815,7 +776,7 @@
   background-color: #000000;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(41, 40, 40, 0.589);
+  border: 1px solid white;
   width: 30%;
   text-align: center;
   transition: transform 0.3s ease;
@@ -835,7 +796,7 @@
 
 .testimonial-card h3 {
   font-size: 1.6rem;
-  color: #2b2d42;
+  color:orange;
   margin-bottom: 10px;
 }
 
@@ -887,7 +848,6 @@
     font-size: 1.2rem;
   }
 }
-
 /* blog */
 .blog {
   background-color: #000000;
@@ -897,7 +857,7 @@
 
 .blog h2 {
   font-size: 2.8rem;
-  color: #b1cc74;
+  color: orange;
   margin-bottom: 20px;
 }
 
@@ -920,7 +880,7 @@
   border-radius: 10px;
   width: 30%;
   text-align: center;
-  box-shadow: 5px 5px 15px rgba(41, 40, 40, 0.589);
+  border: 1px solid white;
   transition: transform 0.3s ease;
 }
 
@@ -928,15 +888,17 @@
   transform: translateY(-10px);
 }
 
+/* ✅ Make images equal & small */
 .blog-image {
   width: 100%;
-  height: auto;
+  height: 300px; /* fixed small height */
+  object-fit: cover; /* keeps proportion and crops excess */
   border-radius: 10px;
 }
 
 .blog-post h3 {
   font-size: 1.6rem;
-  color: #b1cc74;
+  color: orange;
   margin-top: 20px;
 }
 
@@ -968,6 +930,21 @@
   .blog h2 {
     font-size: 2.2rem;
   }
+
+  /* ✅ Adjust image size for smaller screens */
+  .blog-image {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-post {
+    width: 100%;
+  }
+
+  .blog-image {
+    height: 400px;
+  }
 }
 
 /*contact us*/
@@ -979,7 +956,7 @@
 
 .contact-us h2 {
   font-size: 2.8rem;
-  color: #b1cc74;
+  color:orange;
   margin-bottom: 20px;
 }
 
@@ -1034,7 +1011,7 @@ form .submit-btn:hover {
 
 .faq h2 {
   font-size: 2.8rem;
-  color: #b1cc74;
+  color:orange;
   margin-bottom: 20px;
 }
 
@@ -1044,12 +1021,12 @@ form .submit-btn:hover {
   margin: 23px auto;
   width: 95%;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(41, 40, 40, 0.589);
+  border: 1px solid white;
 }
 
 .faq-item h3 {
   font-size: 1.6rem;
-  color: #b1cc74;
+  color: orange;
   padding: 10px 10px;
 }
 
@@ -1077,7 +1054,7 @@ form .submit-btn:hover {
 .join-now h2 {
   font-size: 2.8rem;
   margin-bottom: 20px;
-  color: #b1cc74;
+  color:orange;
 }
 
 .join-now p {
@@ -1097,10 +1074,6 @@ form .submit-btn:hover {
   text-decoration: none;
 }
 
-.join-btn:hover {
-  background-color: #e56b2b;
-  color: #fff;
-}
 
 @media (max-width: 768px) {
   .join-now h2 {
@@ -1112,3 +1085,40 @@ form .submit-btn:hover {
     padding: 12px 25px;
   }
 }
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  padding: 20px 20px;
+  background-color:#000000;
+  color: white;
+  border-radius: 20px;
+  margin: 15px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-content p {
+  font-weight: bolder;
+}
+
+.scroll-top {
+  background: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: bolder;
+}
+.scroll-top:hover{
+  background-color: #ff9800;
+  color:#080705;
+}
+
+
